@@ -50,7 +50,20 @@ class ShoppingList extends React.Component {
     ```
 
     
+---
+[later...]
 
+- On maintaining the state of the game; 
+  - Having Board ask each Square for state possible, but is difficult to understand, potentially buggy.
+  - Instead: Store game state in parent Board component instead of each square.
+    - Board component can tell Squares what to display by passing prop.
+
+
+>**To collect data from multiple children, or to have two child components communicate with each other, you need to declare the shared state in their parent component instead.**
+
+>**The parent component can pass state back down to the children by using props.**
+
+> **This keeps the child components in sync with each other and with the parent component.**
 
 
 
