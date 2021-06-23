@@ -4,10 +4,25 @@ import './index.css';
 
 
 class Square extends React.Component {
+  constructor(props) {
+    // in JS class, always call super when define constr of subclass.
+    // all React comp classes w/constr should start with call below.
+    super(props);
+    this.state = {
+      value: null,
+    };
+  }
+
+
   render() {
     return (
-      <button className="square">
-        {this.props.value}
+      // `function()` is equivalent to `() =>` in React
+      // onClick, sets state from empty to X then displays X
+      <button
+        className="square"
+        onClick={() => { this.setState({ value: 'X' }) }}
+      >
+        {this.state.value}
       </button>
     );
   }
@@ -17,7 +32,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square value={ i } />;
+    return <Square value = { i } />;
   }
 
   render() {
