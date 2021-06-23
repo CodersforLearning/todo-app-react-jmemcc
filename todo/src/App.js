@@ -7,11 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          <i>Tick</i>
+          Tick
         </h1>
 
         <p>
-          A minimal todo list application utilising <b>React</b> and <b>Firebase</b>.<br></br>
+          A minimal todo list app, utilising <b>React</b> and <b>Firebase</b>.<br></br>
           <a
             className="App-link"
             href="https://github.com/jmemcc"
