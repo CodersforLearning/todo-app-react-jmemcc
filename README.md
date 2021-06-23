@@ -27,6 +27,8 @@ Follows the tutorial by Facebook Open Source to create a Tic-Tac-Toe game. <br>
 Goes through the basics of developing using React.<br>
 Tutorial page is **[found here.](https://reactjs.org/tutorial/tutorial.html#developer-tools)**
 
+<br>
+
 ---
 ###### An Aside - About Me
 - On the **Foodbank** Winter Project for CFC.
