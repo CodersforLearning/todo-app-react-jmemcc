@@ -1,38 +1,39 @@
-# Getting Started with Create React App
+# CFC - Todo App Task
+*Created 23 June 2021*
+*Jamie McCullough* - **@jmemcc**#6258<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+#### Navigation
+This repository contains two folders.
+1. **`/todo`** :  Todo application.
+2. **`/tutorial`** : Facebook Open Source React tutorial.
 
-# 1st thing to do after cloning to your computer
-## NPM (node package manager) method
-Run `npm -v` to ensure npm (node package manager) is installed. 
+<br>
 
-Run `npm install` to install all packages. 
+##### 1. Todo List Application
+`/todo`<br>
+A *Minimum-Viable-Product* Todo list application, written in React, using  Firebase for back-end.<br>
+Written in order to improve comfort in writing in React before CFC Winter Project (Foodbank).<br>
+Functionality [will] allows for:
+- Creation of a new task;
+- Marking a task as completed;
+- Deletion of a task.
 
-## Yarn method (alternative to using NPM)
-Run `yarn -v` to ensure yarn is installed (alternative to npm). 
+<br>
 
-Run `yarn` to install all packages. 
+##### 2. Tic-Tac-Toe 
+`/tutorial`<br>
+Follows the tutorial by Facebook Open Source to create a Tic-Tac-Toe game. <br>
+Goes through the basics of developing using React.<br>
+Tutorial page is **[found here.](https://reactjs.org/tutorial/tutorial.html#developer-tools)**
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+---
+###### An Aside - About Me
+- On the **Foodbank** Winter Project for CFC.
+- Undertaking **Bachelor of Science** - *Computer/Data Science)*.
+- Completed **Bachelor of Commerce** - *(Finance/Accounting)*.
+- New to JavaScript, React, Firebase.
 
-### `yarn start` OR `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-**There are some other scripts but, to be honest, they don't matter at this point.** (this will be covered in the package manager workshop)
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
